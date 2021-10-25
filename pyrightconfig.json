@@ -1,0 +1,29 @@
+{
+  "include": [
+    "./"
+  ],
+
+  "exclude": [
+    "media",
+    "**/__pycache__",
+    "src",
+    "node_modules",
+    ".git"
+  ],
+
+  "ignore": [
+  ],
+
+  "venvPath": "/home/kamyab/.virtualenvs/",
+  "venv": "att",
+
+
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": false,
+  "reportImportCycles": true,
+
+  "pythonVersion": "3.6",
+  "pythonPlatform": "Linux",
+
+  "python.analysis.useLibraryCodeForTypes": true
+}
