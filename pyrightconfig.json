@@ -1,4 +1,10 @@
 {
+  "excecutionEnvironments": [
+    {
+      "root": "./"
+    }
+  ],
+
   "include": [
     "./"
   ],
@@ -15,14 +21,13 @@
   ],
 
   "venvPath": "/home/kamyab/.virtualenvs/",
-  "venv": "att",
-
+  "venv": "venv",
 
   "reportMissingImports": true,
   "reportMissingTypeStubs": false,
   "reportImportCycles": true,
 
-  "pythonVersion": "3.6",
+  "pythonVersion": "3.9",
   "pythonPlatform": "Linux",
 
   "python.analysis.useLibraryCodeForTypes": true
